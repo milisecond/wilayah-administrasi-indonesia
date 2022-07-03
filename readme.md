@@ -13,5 +13,5 @@
 ## Run
 1. From inside "api" folder of the project execute command `docker-compose up`
 2. Then, run `docker exec -it api_php bash -c "./boot.sh"`
-3. Done
+3. Done forget to adjust your .env file
 
