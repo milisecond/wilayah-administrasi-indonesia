@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get("/", "Api\RegionController@Index");
-Route::get("/{region_id}", "Api\RegionController@Find");
+Route::get("/find", "Api\RegionController@Find");
 
